@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="http://cdn.jsdelivr.net/vue/2.0.3/vue.js"></script>
+    <script src="../dist/vue.min.js"></script>
   </head>
   <body>
     <div id="app">
       <p>{{ message }}</p>
     </div>
-    <!-- Must put the script below after the app div -->
-    <script type="text/javascript">
-      new Vue({
-        el: '#app',
-        data: {
-          message: 'Hello Vue.js!'
-        }
-      })
-    </script>
+    <!-- Must put the script after the app div -->
+    <script src="./app.js"></script>
   </body>
 </html>

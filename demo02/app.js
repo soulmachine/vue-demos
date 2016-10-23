@@ -1,6 +1,6 @@
-new Vue({
-  el: '#app',
+const app2 = new Vue({
+  el: '#app-2',
   data: {
-    message: 'Hello Vue.js!'
+    message: 'You loaded this page on ' + new Date()
   }
 })

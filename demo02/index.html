@@ -4,8 +4,10 @@
     <script src="../dist/vue.min.js"></script>
   </head>
   <body>
-    <div id="app">
-      <p>{{ message }}</p>
+    <div id="app-2">
+      <span v-bind:title="message">
+        Hover your mouse over me for a few seconds to see my dynamically bound title!
+      </span>
     </div>
     <!-- Must put the script after the app div -->
     <script src="./app.js"></script>
